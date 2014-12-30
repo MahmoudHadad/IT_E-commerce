@@ -109,10 +109,10 @@
 				<input type="text" class="sign-up-input" placeholder="BillingState " autofocus name = "bState" pattern="[a-zA-Z_.]{3,255}"required>
 				<input type="text" class="sign-up-input" placeholder="Billing Zip" autofocus name = "bZip" pattern="[0-9+]{2,255}"required>
 				
-				<input type="text" class="sign-up-input" placeholder="Shipping  Address" autofocus name = "sAddress" pattern="[a-zA-Z_. 0-9]{3,255}" required>
-				<input type="text" class="sign-up-input" placeholder="Shipping  City" autofocus name = "sCity" pattern="[a-zA-Z_.]{3,255}"required>
-				<input type="text" class="sign-up-input" placeholder="Shipping State  " autofocus name = "sState" pattern="[a-zA-Z_.]{3,255}" required>
-				<input type="text" class="sign-up-input" placeholder="Shipping  Zip" autofocus name = "sZip" pattern="[0-9+]{2,255}" required>
+				<input type="text" class="sign-up-input" placeholder="Shipping  Address" autofocus name = "sAddress" pattern="[a-zA-Z_. 0-9]{3,255}" >
+				<input type="text" class="sign-up-input" placeholder="Shipping  City" autofocus name = "sCity" pattern="[a-zA-Z_.]{3,255}">
+				<input type="text" class="sign-up-input" placeholder="Shipping State  " autofocus name = "sState" pattern="[a-zA-Z_.]{3,255}" >
+				<input type="text" class="sign-up-input" placeholder="Shipping  Zip" autofocus name = "sZip" pattern="[0-9+]{2,255}" >
 				
 				 <input type="text" class="sign-up-input" placeholder="Phone" autofocus name = "phone" required pattern="[0-9]{3,255}" >
 				<input type="email" class="sign-up-input" placeholder="Your email" autofocus name="mail" required>

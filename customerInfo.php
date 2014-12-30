@@ -180,10 +180,10 @@
 					<b>billing_state:</b><input type="text"  value = "<?php echo $billing_state;?>"  class="sign-up-input" placeholder="BillingState " autofocus name = "billing_state" pattern="[a-zA-Z]{3,255}" required>
 					<b>billing_zip:</b><input type="text"  value = "<?php echo $billing_zip;?>" class="sign-up-input" placeholder="Billing Zip" autofocus name = "billing_zip" pattern="[0-9]{3,255}" required>
 					
-					<b>shipping_address:</b><input type="text"  value = "<?php echo $shipping_address;?>" class="sign-up-input" placeholder="Shipping  Address" autofocus name = "shipping_address" pattern="[a-zA-Z 0-9]{3,255}"required>
-					<b>shipping_city:</b><input type="text"  value = "<?php echo $shipping_city;?>" class="sign-up-input" placeholder="Shipping  City" autofocus name = "shipping_city" pattern="[a-zA-Z]{3,255}" required>
-					<b>shipping_state:</b><input type="text"  value = "<?php echo $shipping_state;?>" class="sign-up-input" placeholder="Shipping State  " autofocus name = "shipping_state" pattern="[a-zA-Z]{3,255}" required>
-					<b>shipping_zip:</b><input type="text"  value = "<?php echo $shipping_zip;?>" class="sign-up-input" placeholder="Shipping  Zip" autofocus name = "shipping_zip" pattern="[0-9]{3,255}" required>
+					<b>shipping_address:</b><input type="text"  value = "<?php echo $shipping_address;?>" class="sign-up-input" placeholder="Shipping  Address" autofocus name = "shipping_address" pattern="[a-zA-Z 0-9]{3,255}">
+					<b>shipping_city:</b><input type="text"  value = "<?php echo $shipping_city;?>" class="sign-up-input" placeholder="Shipping  City" autofocus name = "shipping_city" pattern="[a-zA-Z]{3,255}" >
+					<b>shipping_state:</b><input type="text"  value = "<?php echo $shipping_state;?>" class="sign-up-input" placeholder="Shipping State  " autofocus name = "shipping_state" pattern="[a-zA-Z]{3,255}" >
+					<b>shipping_zip:</b><input type="text"  value = "<?php echo $shipping_zip;?>" class="sign-up-input" placeholder="Shipping  Zip" autofocus name = "shipping_zip" pattern="[0-9]{3,255}" >
 					
 					<b>phone:</b><input type="text"  value = "<?php echo $phone;?>" class="sign-up-input" placeholder="Phone" autofocus name = "phone" pattern="[0-9]{3,255}" required>
 					<input type="email"  value = "<?php echo $email;?>" class="sign-up-input" placeholder="Your email" autofocus name="email" required readonly = "readonly">
